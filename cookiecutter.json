@@ -1,5 +1,7 @@
 {
     "project_name": "My app",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "const_prefix": "{{ cookiecutter.project_slug.upper() }}"
+    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+    "const_prefix": "{{cookiecutter.project_slug.upper()}}",
+    "license_year": "",
+    "license_author": ""
 }
